@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lua Vermelha | Boutique Íntima</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="age-gate" class="age-gate-overlay" aria-modal="true" role="dialog">
+      <div class="age-gate-card">
+        <h1>Conteúdo +18</h1>
+        <p>Este site contém produtos voltados para adultos. Confirme sua idade para continuar.</p>
+        <div class="age-gate-actions">
+          <button id="confirm-age" class="btn btn-primary">Tenho 18 anos ou mais</button>
+          <button id="deny-age" class="btn btn-secondary">Sou menor de idade</button>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-content">
+        <div>
+          <p class="eyebrow">Entrega discreta em todo Brasil</p>
+          <h1>Lua Vermelha</h1>
+          <p class="subtitle">Boutique íntima com bem-estar, prazer e autocuidado.</p>
+        </div>
+        <a class="btn btn-primary" href="#catalogo">Explorar catálogo</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="container features">
+        <article>
+          <h2>Compra 100% discreta</h2>
+          <p>Embalagem neutra e descrição sigilosa na fatura para sua privacidade.</p>
+        </article>
+        <article>
+          <h2>Curadoria premium</h2>
+          <p>Selecionamos produtos com qualidade, segurança e design sofisticado.</p>
+        </article>
+        <article>
+          <h2>Suporte especializado</h2>
+          <p>Atendimento acolhedor para ajudar você a escolher com confiança.</p>
+        </article>
+      </section>
+
+      <section class="container" id="catalogo">
+        <div class="catalog-header">
+          <h2>Produtos em destaque</h2>
+          <p>Escolha por categoria para encontrar o que combina com você.</p>
+        </div>
+        <div class="filters" id="filters"></div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Lua Vermelha. Todos os direitos reservados.</p>
+        <p class="disclaimer">Venda exclusiva para maiores de 18 anos.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
